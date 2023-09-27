@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import br.com.spring.mvc.mudi.model.Pedido;
 import br.com.spring.mvc.mudi.model.StatusPedido;
 
-public class RequisicaoNovoPedido {
+public class 	RequisicaoNovoPedido {
 	
 	@NotBlank // gerar uma mensagem defaul atraves de "NotBlank.requisicaoNovoPedido.nomeProduto"
 	private String nomeProduto; 
